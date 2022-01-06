@@ -1,0 +1,14 @@
+Source: DEB_PKG_NAME
+Section: devel
+Priority: extra
+Maintainer: Brandon Smith <brandon.smith@g3ti.net>
+Standards-Version: 3.9.2
+Homepage: http://www.g3ti.net
+
+Package: DEB_PKG_NAME
+Architecture: all
+Depends: python-cyberradiodriver
+Description: NDR562 Digital Board Init Scripts
+ Provides the UpdateNDR562.sh functions
+ .
+
