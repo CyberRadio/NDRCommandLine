@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -d /home/ndruser/Desktop/ ]
+then
+    cp /usr/share/applications/CRS-NDRCommandLine*.desktop /home/ndruser/Desktop
+    chmod uga+x /home/ndruser/Desktop/CRS-NDRCommandLine*.desktop
+    chown ndruser:ndruser /home/ndruser/Desktop/CRS-NDRCommandLine*.desktop
+fi
