@@ -1,5 +1,0 @@
-DEB_PKG_NAME (DEB_PKG_VERSION) unstable; urgency=low
-
-  * Initial release
-
- -- Dave Askew <dave.askew@g3ti.net>  Fri, 3 Mar 2017 13:00:00 -0500

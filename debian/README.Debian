@@ -1,7 +1,0 @@
-g3-makedeb for Debian
----------------------
-
-This package provides the "makedeb" script for creating Debian 
-packages from source code.
-
- -- Dave Askew <dave.askew@g3ti.net>  Tue, 1 Mar 2017 13:00:00 -0500
