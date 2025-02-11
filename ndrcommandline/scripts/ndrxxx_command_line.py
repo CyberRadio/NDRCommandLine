@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-___version___ = "23.06.01"
+___version___ = "25.02.11"
 
 import CyberRadioDriver as crd
 import json
