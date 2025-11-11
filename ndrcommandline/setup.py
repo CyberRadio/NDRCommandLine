@@ -6,7 +6,7 @@ from datetime import datetime
 import fnmatch
 from setuptools import setup, find_packages
 
-_VERSION = "25.02.11"
+_VERSION = "25.11.11"
 
 def get_folder_paths_recursive(install_dir, base_dir):
     ret = []
