@@ -57,7 +57,7 @@ PACKAGES = [] # find_packages()
 AUTHOR='Brandon Smith'
 
 # EMAIL: E-mail address for the maintainer of the application
-EMAIL='brandon.smith@g3ti.net'
+EMAIL='brandon.smith@epiqsolutions.com'
 
 # PACKAGE_LIST: List of Python packages to install
 PACKAGE_LIST = []
@@ -66,7 +66,7 @@ PACKAGE_LIST = []
 SCRIPT_LIST = ['scripts/ndrxxx_command_line.py']
 
 # DATA_FILE_LIST: Data file information.  This is a list of 2-tuples: (install directory, list of data files).
-DATA_FILE_LIST = [('/usr/share/applications/', ['shortcuts/CRS-NDRCommandLineNDR358.desktop', 'shortcuts/CRS-NDRCommandLineNDR551.desktop', 'shortcuts/CRS-NDRCommandLineNDR562.desktop'])]
+DATA_FILE_LIST = [('/usr/share/applications/', ['shortcuts/CRS-NDRCommandLine.desktop'])]
 
 setup (
     name='ndrcommandline', 
@@ -74,7 +74,7 @@ setup (
     author=AUTHOR,
     author_email=EMAIL,
     description="NDRxxx Commandline Utility for sending JSON Messages",
-    url="https://gitlab.mamd.g3ti.local/RadioCode/ndrcommandline",
+    url="https://github.com/CyberRadio/NDRCommandLine",
     scripts=SCRIPT_LIST,
     packages=PACKAGES,
     data_files=DATA_FILE_LIST,
