@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=NDR358 Command Line Interface
 Comment=NDR commandline
-Exec=gnome-terminal -e "ndrxxx_command_line.py -i 192.168.0.10 -r ndr358"
+Exec=gnome-terminal -e "ndrxxx_command_line.py -i 192.168.0.10"
 Type=Application
 Terminal=true
 Categories=Applications
