@@ -11,7 +11,7 @@ Contributing Authors:
 ```sh
 git clone https://github.com/CyberRadio/NDRCommandLine.git
 cd NDRCommandLine/ndrcommandline/scripts/
-python3 ndrxxx_command_line.py -r ndr358 -i 192.168.0.10
+python3 ndrxxx_command_line.py -i 192.168.0.10 # removed the -r <radio> requirement
 ```
 ## Installation from internal APT
 ```
@@ -26,7 +26,7 @@ sudo dpkg -i <debian-name>
 
 # Using the program
 ```sh
-python3 ndrxxx_command_line.py -r ndr358 -i 192.168.0.10
+python3 ndrxxx_command_line.py -i 192.168.0.10
 >> qtuner id 0
 TX: {'cmd': 'qtuner', 'params': {'id': 0}}
 RX: {
