@@ -56,7 +56,9 @@ RX: {"cmd":"tuner","success":true,"msg":282,"rsp":819}
 ```
 The Tool expects the following format:
 
->> <cmd> <param> <value>
+```
+>> <cmd> <key> <value> <key> <value>
+```
 
 There must be a space between <cmd> and <param> and <param> and <value>
 
