@@ -60,7 +60,7 @@ The Tool expects the following format:
 >> <cmd> <key> <value> <key> <value>
 ```
 
-There must be a space between <cmd> and <param> and <param> and <value>
+There must be a space between `<cmd>` and `<key>` and `<key>` and `<value>`
 
 You may place as many <param> <value> pairs on the line as you need
 
